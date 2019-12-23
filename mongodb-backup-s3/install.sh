@@ -6,7 +6,7 @@ set -e
 
 apk update
 
-apk add mongodb
+apk add mongodb-tools
 
 apk add python py2-pip
 pip install awscli
